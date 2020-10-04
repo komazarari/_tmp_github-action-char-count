@@ -1,0 +1,17 @@
+{
+  "name": "@komazarari/tmp_github-action-char-count",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build index.js -o dist"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.22.3"
+  },
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0",
+    "@actions/glob": "^0.1.0"
+  }
+}
